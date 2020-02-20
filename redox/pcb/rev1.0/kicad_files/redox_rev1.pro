@@ -61,9 +61,9 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=C:/Users/TiaMaT/Desktop/Redox_rev2/Librerie/kicad_lib_tmk-master/keyboard_parts
-LibName34=C:/Users/TiaMaT/Desktop/Redox_rev2/Librerie/kicad_lib_tmk-master/mkl27z256vfm4
-LibName35=C:/Users/TiaMaT/Desktop/Redox_rev2/Librerie/keebio-components-master/keebio
+LibName33=../../../../kicad_libs/kicad_lib_tmk-master/keyboard_parts
+LibName34=../../../../kicad_libs/kicad_lib_tmk-master/mkl27z256vfm4
+LibName35=../../../../kicad_libs/keebio-components-master/keebio
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
