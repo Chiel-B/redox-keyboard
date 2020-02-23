@@ -1,6 +1,8 @@
 (fp_lib_table
-  (lib (name keebs)(type KiCad)(uri C:/Users/TiaMaT/Desktop/Redox_rev2/Librerie/keebs.pretty-master)(options "")(descr ""))
-  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/TiaMaT/Desktop/Redox_rev2/Librerie/keyboard_parts.pretty-master)(options "")(descr ""))
-  (lib (name promicro)(type KiCad)(uri C:/Users/TiaMaT/Desktop/Redox_rev2/Librerie/ProMicroKiCad-master/promicro.pretty)(options "")(descr ""))
-  (lib (name myparts)(type KiCad)(uri /home/mattia/Scrivania/Redox_rev2/Librerie/myparts.pretty)(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri C:/Users/chiel/redox-keyboard/kicad_libs/keebs.pretty-master)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri C:/Users/chiel/redox-keyboard/kicad_libs/keyboard_parts.pretty-master)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri C:/Users/chiel/redox-keyboard/kicad_libs/ProMicroKiCad-master)(options "")(descr ""))
+  (lib (name myparts)(type KiCad)(uri {KIPRJMOD}../../../../kicad_libs/myparts.pretty)(options "")(descr "")(disabled))
+  (lib (name hotswap)(type KiCad)(uri C:/Users/chiel/redox-keyboard/kicad_libs/MX_Alps_Hybrid-master/MX_Only.pretty)(options "")(descr ""))
+  (lib (name reversable_hotswap)(type KiCad)(uri C:/Users/chiel/redox-keyboard/kicad_libs/reversable_hotswap_socket.pretty)(options "")(descr ""))
 )

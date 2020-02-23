@@ -570,13 +570,13 @@
         (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical device)
-      (uri "E:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
-      (uri "E:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical keyboard_parts)
-      (uri C:\Users\TiaMaT\Desktop\Redox_rev2\Librerie\kicad_lib_tmk-master\keyboard_parts.lib))
+      (uri ..\..\..\..\kicad_libs\kicad_lib_tmk-master\keyboard_parts.lib))
     (library (logical keebio)
-      (uri C:\Users\TiaMaT\Desktop\Redox_rev2\Librerie\keebio-components-master\keebio.lib)))
+      (uri ..\..\..\..\\keebio-components-master\keebio.lib)))
   (nets
     (net (code 1) (name "Net-(D36-Pad2)")
       (node (ref D36) (pin 2))
