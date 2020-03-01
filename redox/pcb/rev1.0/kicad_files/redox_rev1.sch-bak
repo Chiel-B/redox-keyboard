@@ -69,17 +69,17 @@ Text GLabel 1000 3850 0    60   Input ~ 0
 col1
 Text GLabel 1000 3950 0    60   Input ~ 0
 col2
-Text GLabel 2850 3950 2    60   Input ~ 0
+Text GLabel 1000 4050 0    60   Input ~ 0
 col3
-Text GLabel 2850 4050 2    60   Input ~ 0
+Text GLabel 2850 3950 2    60   Input ~ 0
 col4
-Text GLabel 2850 4150 2    60   Input ~ 0
+Text GLabel 2850 4050 2    60   Input ~ 0
 col5
-Text GLabel 2850 4250 2    60   Input ~ 0
+Text GLabel 2850 4150 2    60   Input ~ 0
 col6
-Text GLabel 1000 3650 0    60   Input ~ 0
+Text GLabel 1000 4450 0    60   Input ~ 0
 row0
-Text GLabel 1000 4250 0    60   Input ~ 0
+Text GLabel 1000 4750 0    60   Input ~ 0
 row1
 Text GLabel 1000 4850 0    60   Input ~ 0
 row2
@@ -208,7 +208,7 @@ U 1 1 5A809203
 P 7300 1500
 F 0 "K3" H 7250 1500 60  0000 C CNN
 F 1 "KEYSW" H 7300 1400 60  0001 C CNN
-F 2 "reversable_hotswap:MXOnly-1U-Hotswap" H 7300 1500 60  0001 C CNN
+F 2 "reversable_hotswap:MXOnly-1U-Hotswap-Small" H 7300 1500 60  0001 C CNN
 F 3 "" H 7300 1500 60  0000 C CNN
 	1    7300 1500
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 1 1 5A809C44
 P 7300 2250
 F 0 "K13" H 7250 2250 60  0000 C CNN
 F 1 "KEYSW" H 7300 2150 60  0001 C CNN
-F 2 "reversable_hotswap:MXOnly-1U-Hotswap" H 7300 2250 60  0001 C CNN
+F 2 "reversable_hotswap:MXOnly-1U-Hotswap-Small" H 7300 2250 60  0001 C CNN
 F 3 "" H 7300 2250 60  0000 C CNN
 	1    7300 2250
 	1    0    0    -1  
@@ -558,7 +558,7 @@ U 1 1 5A80ABB1
 P 7300 2950
 F 0 "K23" H 7250 2950 60  0000 C CNN
 F 1 "KEYSW" H 7300 2850 60  0001 C CNN
-F 2 "reversable_hotswap:MXOnly-1U-Hotswap" H 7300 2950 60  0001 C CNN
+F 2 "reversable_hotswap:MXOnly-1U-Hotswap-Small" H 7300 2950 60  0001 C CNN
 F 3 "" H 7300 2950 60  0000 C CNN
 	1    7300 2950
 	1    0    0    -1  
@@ -1244,7 +1244,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 5950 5900 5950
 $Comp
-L STM32BlackPill2:BlackPill2 BP1
+L redox_rev1-rescue:BlackPill2-STM32BlackPill2 BP1
 U 1 1 5E52B74E
 P 1900 4600
 F 0 "BP1" H 1900 5837 60  0000 C CNN
@@ -1254,19 +1254,6 @@ F 3 "" H 1300 5900 60  0001 C CNN
 	1    1900 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0101
-U 1 1 5E533DEE
-P 1100 5550
-F 0 "#PWR0101" H 1100 5400 50  0001 C CNN
-F 1 "VCC" H 1100 5700 50  0000 C CNN
-F 2 "" H 1100 5550 50  0001 C CNN
-F 3 "" H 1100 5550 50  0001 C CNN
-	1    1100 5550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1100 5550 1250 5550
 Wire Wire Line
 	950  5450 1250 5450
 Wire Wire Line
@@ -1286,21 +1273,21 @@ Wire Wire Line
 Wire Wire Line
 	1000 4850 1250 4850
 Wire Wire Line
-	1000 4250 1250 4250
-Wire Wire Line
-	1000 3650 1250 3650
-Wire Wire Line
 	1000 3750 1250 3750
 Wire Wire Line
 	1000 3850 1250 3850
 Wire Wire Line
 	1000 3950 1250 3950
 Wire Wire Line
-	2850 3950 2550 3950
+	2550 3950 2850 3950
 Wire Wire Line
-	2550 4050 2850 4050
+	2850 4050 2550 4050
 Wire Wire Line
-	2850 4150 2550 4150
+	2550 4150 2850 4150
 Wire Wire Line
-	2550 4250 2850 4250
+	1000 4450 1250 4450
+Wire Wire Line
+	1000 4750 1250 4750
+Wire Wire Line
+	1000 4050 1250 4050
 $EndSCHEMATC
