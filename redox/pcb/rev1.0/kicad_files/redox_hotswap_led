@@ -1,0 +1,18 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <h1>C:\Users\chiel\redox-keyboard\redox\pcb\rev1.0\kicad_files\redox_hotswap_led.sch</h1>
+    <p>3/3/2020 7:48:48 PM</p>
+    <p>Eeschema (5.1.5)-3</p>
+    <p><b>Component Count:</b>106</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Datasheet</th><th>Description</th><th>Vendor</th></tr><tr><td>BP1</td><td>1</td><td>BlackPill2</td><td>STM32BlackPill2:BlackPill2</td><td></td><td></td><td></td></tr><tr><td>D0, D1, D2, D3, D4, D5, D6, D10, D11, D12, D13, D14, D15, D16, D20, D21, D22, D23, D24, D25, D26, D30, D31, D32, D33, D34, D35, D36, D40, D41, D42, D43, D44, D45, D46</td><td>35</td><td>D</td><td>Device:D</td><td></td><td>Diode</td><td></td></tr><tr><td>K0, K10, K20, K30, K44</td><td>5</td><td>SW_Push_LED</td><td>Switch:SW_Push_LED</td><td>~</td><td>Push button switch with LED, generic</td><td></td></tr><tr><td>K1, K2, K4, K5, K6, K11, K12, K14, K15, K21, K22, K24, K25, K26, K31, K32, K33, K34, K35, K36, K40, K41, K42, K43</td><td>24</td><td>SW_Push_LED</td><td>Switch:SW_Push_LED</td><td>~</td><td>Push button switch with LED, generic</td><td></td></tr><tr><td>K3, K13, K23</td><td>3</td><td>SW_Push_LED</td><td>Switch:SW_Push_LED</td><td>~</td><td>Push button switch with LED, generic</td><td></td></tr><tr><td>K16, K45, K46</td><td>3</td><td>SW_Push_LED</td><td>Switch:SW_Push_LED</td><td>~</td><td>Push button switch with LED, generic</td><td></td></tr><tr><td>Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12</td><td>12</td><td>BC848</td><td>Transistor_BJT:BC848</td><td>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</td><td>0.1A Ic, 30V Vce, NPN Transistor, SOT-23</td><td></td></tr><tr><td>R1, R2</td><td>2</td><td>4.7k</td><td>Device:R</td><td></td><td>Resistor</td><td></td></tr><tr><td>R3, R4, R5, R6, R7, R15, R16, R17, R18, R19, R20, R21</td><td>12</td><td>10K</td><td>Device:R_Small</td><td>~</td><td>Resistor, small symbol</td><td></td></tr><tr><td>R8, R9, R10, R11, R12, R13, R14</td><td>7</td><td>300</td><td>Device:R_Small</td><td>~</td><td>Resistor, small symbol</td><td></td></tr><tr><td>RST_SW1</td><td>1</td><td>SW_PUSH</td><td>keyboard_parts:SW_PUSH</td><td></td><td></td><td></td></tr><tr><td>TRRS1</td><td>1</td><td>Audio-Jack-4</td><td>redox_rev1-rescue:Audio-Jack-4</td><td></td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
