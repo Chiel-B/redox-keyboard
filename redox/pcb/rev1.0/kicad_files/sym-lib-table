@@ -4,4 +4,5 @@
   (lib (name mkl27z256vfm4)(type Legacy)(uri ${KIPRJMOD}/../../../../kicad_libs/kicad_lib_tmk-master/mkl27z256vfm4.lib)(options "")(descr ""))
   (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/../../../../kicad_libs/keebio-components-master/keebio.lib)(options "")(descr ""))
   (lib (name STM32BlackPill2)(type Legacy)(uri C:/Users/chiel/redox-keyboard/kicad_libs/STM32BlackPill2.lib)(options "")(descr ""))
+  (lib (name redox_hotswap_led-rescue)(type Legacy)(uri ${KIPRJMOD}/redox_hotswap_led-rescue.lib)(options "")(descr ""))
 )

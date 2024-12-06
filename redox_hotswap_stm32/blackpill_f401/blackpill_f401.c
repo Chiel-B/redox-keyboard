@@ -1,4 +1,4 @@
-/* Copyright 2020 Sergey Vlasov (sigprof)
+/* Copyright 2021 Chiel Broer (chibro)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,9 +17,6 @@
 #include QMK_KEYBOARD_H
 
 void board_init(void) {
-    // B9 is configured as I2C1_SDA in the board file; that function must be
-    // disabled before using B7 as I2C1_SDA.
-    // setPinInputLow(B7);
     setPinOutput(A5);
     writePinHigh(A5);
 }

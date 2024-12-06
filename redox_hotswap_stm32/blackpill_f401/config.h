@@ -1,4 +1,4 @@
-/* Copyright 2019
+/* Copyright 2021 Chiel Broer (chibro)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,6 @@
 #include "config_common.h"
 
 #define MATRIX_COL_PINS { B15, B13, A8, B3, B10, B1, A7}
-// PA9 - PA12 = USART(USB)
 #define MATRIX_ROW_PINS { B0, B8, A1, A3, B9 }
 #define UNUSED_PINS
 

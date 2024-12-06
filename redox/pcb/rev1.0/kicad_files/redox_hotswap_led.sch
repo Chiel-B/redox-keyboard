@@ -2298,7 +2298,7 @@ F 3 "" H 1350 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32BlackPill2:BlackPill2 BP1
+L redox_hotswap_led-rescue:BlackPill2-STM32BlackPill2 BP1
 U 1 1 5E52B74E
 P 2250 1750
 F 0 "BP1" H 2250 2987 60  0000 C CNN
